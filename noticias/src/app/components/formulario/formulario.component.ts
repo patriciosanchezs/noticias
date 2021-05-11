@@ -9,7 +9,12 @@ export class FormularioComponent implements OnInit {
 
   categorias: any[] = [
     {value: 'general', nombre: 'General'},
-    {value: 'business', nombre: 'Negocios'}
+    {value: 'business', nombre: 'Negocios'},
+    {value: 'entertainment', nombre: 'Entretenimiento'},
+    {value: 'health', nombre: 'Salud'},
+    {value: 'science', nombre: 'Ciencia'},
+    {value: 'sports', nombre: 'Deportes'},
+    {value: 'technology', nombre: 'Tecnología'}
   ];
 
   paises: any[] = [
